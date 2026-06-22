@@ -1,0 +1,76 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.q-layout,
+.q-page {
+  min-height: auto !important;
+}
+
+.q-page {
+  padding: 20px !important;
+}
+
+.q-page-container {
+  padding: 0 !important;
+}
+
+article,
+section,
+header,
+div {
+  line-height: 1.25 !important;
+}
+
+.q-col-gutter-md,
+.q-col-gutter-xs {
+  margin: 0 !important;
+}
+
+.q-col-gutter-md > *,
+.q-col-gutter-xs > * {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+}
+
+.-p-4,
+.lg\:-px-4,
+.lg\:-py-4,
+.-px-4,
+.-py-4 {
+  padding: 8px !important;
+}
+
+.-whitespace-pre-line {
+  white-space: normal !important;
+}
+
+.col-12,
+.col-md-6,
+.col-md-3,
+.col-6 {
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+}
+
+.-text-center {
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+}
+
+.-text-lg,
+.-text-sm,
+.-text-xs {
+  margin-top: 2px !important;
+  margin-bottom: 2px !important;
+}
+
+.q-img {
+  margin-bottom: 6px !important;
+}
+
+button {
+  margin-top: 8px !important;
+}
