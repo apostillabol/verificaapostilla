@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"/></head>
+<body>
+<script>
+  var path = window.location.pathname;
+  var spas = ["/bo/apostilla", "/apostilla/verifica", "/apostilla/firmadigital"];
+  var target = null;
+  for (var i = 0; i < spas.length; i++) {
+    if (path === spas[i] || path.indexOf(spas[i] + "/") === 0) {
+      target = spas[i] + "/index.html";
+      break;
+    }
+  }
+  if (target) {
+    window.location.replace(target + "?redirect=" + encodeURIComponent(path));
+  } else {
+    document.write("<h2>Página no encontrada</h2>");
+  }
+</script>
+</body>
+</html>
